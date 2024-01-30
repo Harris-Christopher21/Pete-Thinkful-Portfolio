@@ -1,4 +1,4 @@
-/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
 body {
@@ -8,7 +8,7 @@ body {
   padding: 40px;
 }
 
-/* Set the font family for any h1, h2, or h3 heading */
+/* Headings */
 h1,
 h2,
 h3 {
@@ -23,6 +23,7 @@ header {
 
 /* Containers */
 div {
+  background-color: #eae2b7;
   margin: auto;
   width: 600px;
 }
@@ -36,7 +37,7 @@ article div {
   width: 100%;
 }
 
-/* Paragraph */
+/* Paragraphs */
 p {
   line-height: 1.5;
 }
@@ -71,7 +72,7 @@ footer {
   text-align: center;
 }
 
-/* Other styling elements */
+/* Other page elements */
 hr {
   border: 1px solid black;
 }
